@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/nunomaduro-termwind",
+    "description": "Tyhp type definitions for nunomaduro/termwind 2.4.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.4.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/nunomaduro-termwind-impl": "~2.4.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/nunomaduro-termwind-impl"
+        }
+    }
+}
